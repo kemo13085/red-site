@@ -1,0 +1,67 @@
+body{
+    background-color: rgb(0, 0, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container{
+    /* ====================== color & appearance */
+    border: 2px solid white;
+    background-color: rgb(0, 0, 255);
+    /* ====================== cell and container positioning */
+    width: 60%;
+    margin: 5% auto;
+    /* ====================== flexbox main*/
+    display: flex;
+    flex-direction: column;
+    /* ====================== */
+    align-items: center;
+    overflow: hidden;
+    gap: 1rem;
+}
+
+.container .cont{
+    border: 2px solid red;
+    padding: 5px;
+    color: rgb(126, 121, 121);
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #eeeeee;
+    /* ====================== */
+    text-align: left;
+    width: 250px;
+}
+
+.guide{
+    color: rgb(255, 0, 0);
+    font-size: 48px;
+    font-weight: 800;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.cont.password{
+    margin-bottom: 10px;
+}
+
+.note{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(185, 185, 185);
+    font-size: 14px;
+    text-align: left;
+}
+
+.care{
+    padding: 3px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+    background-color: rgb(255, 0, 0);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+button{
+    border: 1px solid rgb(190, 189, 189);
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    background-color: black;
+    margin-bottom: 10px;
+}
