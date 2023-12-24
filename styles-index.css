@@ -1,6 +1,5 @@
 body{
     background-color: rgb(0, 0, 0);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .container{
@@ -10,7 +9,7 @@ body{
     /* ====================== cell and container positioning */
     width: 60%;
     margin: 5% auto;
-    /* ====================== flexbox main*/
+    /* ====================== flexbox main */
     display: flex;
     flex-direction: column;
     /* ====================== */
@@ -23,17 +22,17 @@ body{
     border: 2px solid red;
     padding: 5px;
     color: rgb(126, 121, 121);
-    font-family: 'Times New Roman', Times, serif;
     background-color: #eeeeee;
     /* ====================== */
     text-align: left;
-    width: 250px;
+    min-width: 250px;
 }
 
 .guide{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgb(255, 0, 0);
     font-size: 48px;
-    font-weight: 800;
+    font-weight: bold;
     padding-top: 20px;
     padding-bottom: 10px;
 }
@@ -43,7 +42,6 @@ body{
 }
 
 .note{
-    font-family: 'Times New Roman', Times, serif;
     color: rgb(185, 185, 185);
     font-size: 14px;
     text-align: left;
@@ -51,7 +49,6 @@ body{
 
 .care{
     padding: 3px;
-    font-family: 'Times New Roman', Times, serif;
     font-size: 12px;
     background-color: rgb(255, 0, 0);
     color: rgb(0, 0, 0);
@@ -60,8 +57,12 @@ body{
 
 button{
     border: 1px solid rgb(190, 189, 189);
-    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
     color: white;
     background-color: black;
     margin-bottom: 10px;
+}
+
+button, .care, .note, .container .cont{
+    font-family: 'Times New Roman', Times, serif;
 }
